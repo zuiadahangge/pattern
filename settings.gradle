@@ -1,2 +1,4 @@
 rootProject.name = 'pattern'
+include 'singleton-prototype'
+include 'factory'
 

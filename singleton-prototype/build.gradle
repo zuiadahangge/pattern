@@ -6,6 +6,7 @@ group 'com.zh'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+
 repositories {
     mavenLocal()
     maven{ url 'http://maven.aliyun.com/nexus/content/groups/public' }
@@ -15,9 +16,5 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compile (group: 'org.projectlombok', name: 'lombok', version: '1.18.2')
-
-}
-
-allprojects {
 
 }
